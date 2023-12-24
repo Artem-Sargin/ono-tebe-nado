@@ -1,5 +1,5 @@
 
-/* header */
+
 
 .header {
     width: 1052px;
@@ -70,7 +70,8 @@
 
   .cover {
     
-    background-image: url(/images/cover.jpg);
+    background-image: url("../images/cover.jpg");
+    
     color: #fff;
     margin-top: 105px;
     margin-left: -30px;
@@ -184,7 +185,7 @@
   
   .lots__card-list-item {
     flex:1 0 0 ;
-    width: 328px;
+    width: 338px;
     height: 554px;
     
   }
@@ -210,20 +211,20 @@
   .card_type_film {
     
     
-    background: url(/images/card-lot-01.jpg) center/cover;
+    background: url("../images/card-lot-02.jpg") center/cover;
      
   }
   
   .card_type_book {
     
 
-    background: url(/images/card-lot-02.jpg) center/cover;
+    background: url("../images/card-lot-02.jpg") center/cover;
   }
   
   .card_type_picture {
    
 
-    background: url(/images/card-lot-03.jpg) center/cover;
+    background: url("../images/card-lot-03.jpg") center/cover;
   }
   
   .card-link {
